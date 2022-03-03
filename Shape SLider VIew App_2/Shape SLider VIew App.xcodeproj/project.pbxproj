@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9B5E3127C638AF00B3CADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3027C638AF00B3CADA /* AppDelegate.swift */; };
+		3F9B5E3327C638AF00B3CADA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3227C638AF00B3CADA /* art.scnassets */; };
+		3F9B5E3527C638AF00B3CADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3427C638AF00B3CADA /* ViewController.swift */; };
+		3F9B5E3827C638AF00B3CADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3627C638AF00B3CADA /* Main.storyboard */; };
+		3F9B5E3A27C638C700B3CADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3927C638C700B3CADA /* Assets.xcassets */; };
+		3F9B5E3D27C638C700B3CADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B5E3B27C638C700B3CADA /* LaunchScreen.storyboard */; };
+		3F9B5E4827C638C800B3CADA /* Shape_SLider_VIew_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B5E4727C638C800B3CADA /* Shape_SLider_VIew_AppTests.swift */; };
+		3F9B5E5327C638C800B3CADA /* Shape_SLider_VIew_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B5E5227C638C800B3CADA /* Shape_SLider_VIew_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9B5E4427C638C800B3CADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9B5E2527C638AF00B3CADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9B5E2C27C638AF00B3CADA;
+			remoteInfo = "Shape SLider VIew App";
+		};
+		3F9B5E4F27C638C800B3CADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9B5E2527C638AF00B3CADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9B5E2C27C638AF00B3CADA;
+			remoteInfo = "Shape SLider VIew App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9B5E2D27C638AF00B3CADA /* Shape SLider VIew App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape SLider VIew App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9B5E3027C638AF00B3CADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9B5E3227C638AF00B3CADA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3F9B5E3427C638AF00B3CADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9B5E3727C638AF00B3CADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F9B5E3927C638C700B3CADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9B5E3C27C638C700B3CADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9B5E3E27C638C700B3CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9B5E4327C638C800B3CADA /* Shape SLider VIew AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape SLider VIew AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9B5E4727C638C800B3CADA /* Shape_SLider_VIew_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_SLider_VIew_AppTests.swift; sourceTree = "<group>"; };
+		3F9B5E4927C638C800B3CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9B5E4E27C638C800B3CADA /* Shape SLider VIew AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape SLider VIew AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9B5E5227C638C800B3CADA /* Shape_SLider_VIew_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_SLider_VIew_AppUITests.swift; sourceTree = "<group>"; };
+		3F9B5E5427C638C800B3CADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9B5E2A27C638AF00B3CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E4027C638C800B3CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E4B27C638C800B3CADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9B5E2427C638AF00B3CADA = {
+			isa = PBXGroup;
+			children = (
+				3F9B5E2F27C638AF00B3CADA /* Shape SLider VIew App */,
+				3F9B5E4627C638C800B3CADA /* Shape SLider VIew AppTests */,
+				3F9B5E5127C638C800B3CADA /* Shape SLider VIew AppUITests */,
+				3F9B5E2E27C638AF00B3CADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9B5E2E27C638AF00B3CADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B5E2D27C638AF00B3CADA /* Shape SLider VIew App.app */,
+				3F9B5E4327C638C800B3CADA /* Shape SLider VIew AppTests.xctest */,
+				3F9B5E4E27C638C800B3CADA /* Shape SLider VIew AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9B5E2F27C638AF00B3CADA /* Shape SLider VIew App */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B5E3027C638AF00B3CADA /* AppDelegate.swift */,
+				3F9B5E3227C638AF00B3CADA /* art.scnassets */,
+				3F9B5E3427C638AF00B3CADA /* ViewController.swift */,
+				3F9B5E3627C638AF00B3CADA /* Main.storyboard */,
+				3F9B5E3927C638C700B3CADA /* Assets.xcassets */,
+				3F9B5E3B27C638C700B3CADA /* LaunchScreen.storyboard */,
+				3F9B5E3E27C638C700B3CADA /* Info.plist */,
+			);
+			path = "Shape SLider VIew App";
+			sourceTree = "<group>";
+		};
+		3F9B5E4627C638C800B3CADA /* Shape SLider VIew AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B5E4727C638C800B3CADA /* Shape_SLider_VIew_AppTests.swift */,
+				3F9B5E4927C638C800B3CADA /* Info.plist */,
+			);
+			path = "Shape SLider VIew AppTests";
+			sourceTree = "<group>";
+		};
+		3F9B5E5127C638C800B3CADA /* Shape SLider VIew AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B5E5227C638C800B3CADA /* Shape_SLider_VIew_AppUITests.swift */,
+				3F9B5E5427C638C800B3CADA /* Info.plist */,
+			);
+			path = "Shape SLider VIew AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9B5E2C27C638AF00B3CADA /* Shape SLider VIew App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9B5E5727C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew App" */;
+			buildPhases = (
+				3F9B5E2927C638AF00B3CADA /* Sources */,
+				3F9B5E2A27C638AF00B3CADA /* Frameworks */,
+				3F9B5E2B27C638AF00B3CADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shape SLider VIew App";
+			productName = "Shape SLider VIew App";
+			productReference = 3F9B5E2D27C638AF00B3CADA /* Shape SLider VIew App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9B5E4227C638C800B3CADA /* Shape SLider VIew AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9B5E5A27C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew AppTests" */;
+			buildPhases = (
+				3F9B5E3F27C638C800B3CADA /* Sources */,
+				3F9B5E4027C638C800B3CADA /* Frameworks */,
+				3F9B5E4127C638C800B3CADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9B5E4527C638C800B3CADA /* PBXTargetDependency */,
+			);
+			name = "Shape SLider VIew AppTests";
+			productName = "Shape SLider VIew AppTests";
+			productReference = 3F9B5E4327C638C800B3CADA /* Shape SLider VIew AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9B5E4D27C638C800B3CADA /* Shape SLider VIew AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9B5E5D27C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew AppUITests" */;
+			buildPhases = (
+				3F9B5E4A27C638C800B3CADA /* Sources */,
+				3F9B5E4B27C638C800B3CADA /* Frameworks */,
+				3F9B5E4C27C638C800B3CADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9B5E5027C638C800B3CADA /* PBXTargetDependency */,
+			);
+			name = "Shape SLider VIew AppUITests";
+			productName = "Shape SLider VIew AppUITests";
+			productReference = 3F9B5E4E27C638C800B3CADA /* Shape SLider VIew AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9B5E2527C638AF00B3CADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SVIIT;
+				TargetAttributes = {
+					3F9B5E2C27C638AF00B3CADA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F9B5E4227C638C800B3CADA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F9B5E2C27C638AF00B3CADA;
+					};
+					3F9B5E4D27C638C800B3CADA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F9B5E2C27C638AF00B3CADA;
+					};
+				};
+			};
+			buildConfigurationList = 3F9B5E2827C638AF00B3CADA /* Build configuration list for PBXProject "Shape SLider VIew App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9B5E2427C638AF00B3CADA;
+			productRefGroup = 3F9B5E2E27C638AF00B3CADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9B5E2C27C638AF00B3CADA /* Shape SLider VIew App */,
+				3F9B5E4227C638C800B3CADA /* Shape SLider VIew AppTests */,
+				3F9B5E4D27C638C800B3CADA /* Shape SLider VIew AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9B5E2B27C638AF00B3CADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B5E3327C638AF00B3CADA /* art.scnassets in Resources */,
+				3F9B5E3D27C638C700B3CADA /* LaunchScreen.storyboard in Resources */,
+				3F9B5E3A27C638C700B3CADA /* Assets.xcassets in Resources */,
+				3F9B5E3827C638AF00B3CADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E4127C638C800B3CADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E4C27C638C800B3CADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9B5E2927C638AF00B3CADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B5E3527C638AF00B3CADA /* ViewController.swift in Sources */,
+				3F9B5E3127C638AF00B3CADA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E3F27C638C800B3CADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B5E4827C638C800B3CADA /* Shape_SLider_VIew_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9B5E4A27C638C800B3CADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9B5E5327C638C800B3CADA /* Shape_SLider_VIew_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9B5E4527C638C800B3CADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9B5E2C27C638AF00B3CADA /* Shape SLider VIew App */;
+			targetProxy = 3F9B5E4427C638C800B3CADA /* PBXContainerItemProxy */;
+		};
+		3F9B5E5027C638C800B3CADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9B5E2C27C638AF00B3CADA /* Shape SLider VIew App */;
+			targetProxy = 3F9B5E4F27C638C800B3CADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F9B5E3627C638AF00B3CADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9B5E3727C638AF00B3CADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F9B5E3B27C638C700B3CADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9B5E3C27C638C700B3CADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9B5E5527C638C800B3CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9B5E5627C638C800B3CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9B5E5827C638C800B3CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9B5E5927C638C800B3CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F9B5E5B27C638C800B3CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape SLider VIew App.app/Shape SLider VIew App";
+			};
+			name = Debug;
+		};
+		3F9B5E5C27C638C800B3CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape SLider VIew App.app/Shape SLider VIew App";
+			};
+			name = Release;
+		};
+		3F9B5E5E27C638C800B3CADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shape SLider VIew App";
+			};
+			name = Debug;
+		};
+		3F9B5E5F27C638C800B3CADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shape SLider VIew AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "svvv.edu.in.Shape-SLider-VIew-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shape SLider VIew App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9B5E2827C638AF00B3CADA /* Build configuration list for PBXProject "Shape SLider VIew App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B5E5527C638C800B3CADA /* Debug */,
+				3F9B5E5627C638C800B3CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9B5E5727C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B5E5827C638C800B3CADA /* Debug */,
+				3F9B5E5927C638C800B3CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9B5E5A27C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B5E5B27C638C800B3CADA /* Debug */,
+				3F9B5E5C27C638C800B3CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9B5E5D27C638C800B3CADA /* Build configuration list for PBXNativeTarget "Shape SLider VIew AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9B5E5E27C638C800B3CADA /* Debug */,
+				3F9B5E5F27C638C800B3CADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9B5E2527C638AF00B3CADA /* Project object */;
+}
