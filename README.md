@@ -1,4 +1,4 @@
-# edithkaren-edithkaren-AR-VR-Semester 6 Practicals
+# edithkaren-edithkaren-AR-VR-Semester  Practicals
 edithkaren/edithkaren-AR-VR-Semester-6-Practicals
 RUDRAKSH PALIWAL SEC K 19100BTCSEMA05497 
 College Practical
