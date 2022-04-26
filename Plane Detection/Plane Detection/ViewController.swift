@@ -73,6 +73,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         
+        func renderer(_renderer: SCNSceneRenderer, didUpdate  node: SCNNode, for anchor: ARAnchor ){
+            guard anchor is ARPlaneAnchor else{ return  }
+             
+            node.enumerateChildNodes{(childnode,_) in
+                childnode.removeFromParentNode()
+            }
+            let planeNode = displayPlane(anchor: anchor as! ARPlaneAnchor)
+            node.addChildNode(planeNode)
+        }
+        
+        
+        
 }
 
     
