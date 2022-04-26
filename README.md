@@ -30,6 +30,16 @@ File Name: Shape SLider VIew App_2
  
  TextARApp 
  
+ Gestures App  
+ 1. Tap Gesture App 
+ 2. Pinch Gesture App 
+ 3. Swipe Gesture App 
+ 
+ 
+ Plane Detection APP 
+  1. Object Forcing App 
+  2. 
+ 
  
 
 
