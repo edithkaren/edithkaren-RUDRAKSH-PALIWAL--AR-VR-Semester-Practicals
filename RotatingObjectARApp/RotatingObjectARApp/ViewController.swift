@@ -66,6 +66,5 @@ class ViewController: UIViewController, ARSCNViewDelegate{
         currentZ = GLKMathDegreesToRadians((sender as AnyObject).value)
         node.eulerAngles = SCNVector3(currentX, currentY, currentZ)
     }
-    
 }
 
